@@ -12,3 +12,27 @@ a:hover {
     background: #4136bc;
     color:antiquewhite; 
 }
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* This will allow for the logo to be centered. */
+a.logo {
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+/* This refers to the actual 'Cart' and 'Log In' text. */
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
